@@ -1,0 +1,14 @@
+<body>
+    <ul>
+        {% for ding in dinger %}
+            <li>{{ ding }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if zahl > 5 %}
+        <p>{{ zahl }} ist grösser als 5</p>
+    {% else %}
+	   <p>{{ zahl }} ist nicht grösser als 5</p>
+    {% endif %}
+
+</body>
